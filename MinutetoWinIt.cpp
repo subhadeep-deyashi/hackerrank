@@ -1,12 +1,10 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main()
 {
-    long int n, k;
+    long int n, k, a[100001], ans = 0;
     cin >> n >> k;
-    long int a[100001], ans = 0;
     map<long int, long int> m;
     for(long int i = 0; i < n; ++i)
     {
